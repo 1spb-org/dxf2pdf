@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dxf2Pdf.Queue", "Dxf2Pdf.Queue.csproj", "{D428BB30-28DB-44CB-B57F-94941424B193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D428BB30-28DB-44CB-B57F-94941424B193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D428BB30-28DB-44CB-B57F-94941424B193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D428BB30-28DB-44CB-B57F-94941424B193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D428BB30-28DB-44CB-B57F-94941424B193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FACEE0BC-4890-4AF7-8B59-0BFE89918F90}
+	EndGlobalSection
+EndGlobal
