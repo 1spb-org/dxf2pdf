@@ -80,9 +80,12 @@ namespace Dxf2Pdf.Queue.Services
                 }
             }
 
-            var dirDxf = Path.GetDirectoryName(InputDXFPath);
-            if (dirDxf != null)
-                PDFPath = Path.Combine(dirDxf, PDFPath);
+            if (!File.Exists(PDFPath))
+            {
+                var dirDxf = Path.GetDirectoryName(InputDXFPath);
+                if (dirDxf != null)
+                    PDFPath = Path.Combine(dirDxf, PDFPath);
+            }
 
             PlotScrPath = ReplaceInScript(PlotScrPath, PDFPath);
 

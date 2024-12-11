@@ -6,16 +6,14 @@ ISO full bleed A3 (297.00 x 420.00 MM)
 _Millimeters
 _Landscape
 _No
-_Extent
+_Extents
 _Fit
 0,0
 _Yes
 .
 _Yes
 _Yes
-_Y
-_Y
 (* OUTPUTPATH.PDF *)
-_Yes
-_Yes
+_Y
+_Y
 _QUIT _Yes
